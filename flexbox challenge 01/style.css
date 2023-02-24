@@ -45,13 +45,14 @@ h1 {
   /* display: flex => flex container */
   display: flex;
 
-  /* can't use yet */
-  /* gap: 100px; */
+  gap: 3rem;
+  padding: 2rem;
 }
 
 .col {
   /* these are now flex items */
   width: 100%;
+  text-align: center;
 }
 
 .hero {
@@ -82,4 +83,13 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.secondary {
+  background-color: #136c72;
+  color: white;
+}
+
+.primary h2 {
+  color: #87629a;
 }
